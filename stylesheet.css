@@ -1,0 +1,46 @@
+/* Add your CSS below! */
+#left {
+    float:left;    
+}
+
+#right {
+    float:right;    
+}
+
+canvas {
+    margin-top: 10%;    
+}
+
+h1 {
+    font-size: 2em;
+    color:white;
+    font-family: cursive;
+    
+}
+
+#header {
+    text-align: center;
+    position: relative;
+    top: 1px;
+    background-color:#CFCC34;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 3em;
+}
+
+#wrapper {
+    border: 1px solid gray;
+    padding: 3px;
+    box-shadow: 5px 5px 5px #CFCC34;
+    clear:both;
+    background: white;
+    height: 500px;
+}
+
+body {
+    font-family: Verdana;
+    font-size: 0.8em;
+    width: 80%;
+    margin: 1em auto;
+    background: #23195E;
+}

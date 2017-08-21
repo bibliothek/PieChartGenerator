@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Pie chart generator</title>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+        <script src="script.js"></script>
+	</head>
+	<body>
+        <!--Add your own HTML!-->   
+        <div id="header"><h1>Pie chart generator</h1></div>
+        <div id="wrapper">
+        <div id="left">
+        <p>Generate a pie chart using up to 5 data inputs.</p>
+        <h2>Input data</h2>
+        <p>Input up to 5 figures. Leave data you don't need at 0.</p>
+        <form name="data">
+            Enter value for chart: <input type="number" name="v" value="0" min="0" step="any"><br/>
+        </form>
+        <button type="button" onclick="drawChart()">Add value and draw pie chart</button>
+        <button type="button" onclick="clearCanvas()">Reset canvas</button>
+        <h2>Input values</h2>
+        <table id="values">
+        
+        <tbody>
+        </tbody>
+        </table>
+        </div>
+        <div id="right">
+        <canvas id="canvas" width="400" height = "400">
+            For this generator to work you need a browser that supports html5.
+        </canvas>
+        </div>
+        </div>
+	</body>
+</html>
